@@ -1,0 +1,16 @@
+{
+  "name": "trolley-bot",
+  "version": "1.0.0",
+  "description": "A twitter bot posting randomly generated trolley problem meme images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maël Brunet",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jimp": "^0.14.0",
+    "twit": "^2.2.11"
+  }
+}
