@@ -41,7 +41,7 @@ const tweet = () => {
                             T.post(
                                 'statuses/update',
                                 {
-                                    status: `What do you do ?\nLike to do nothing and let ${randomImageString1} die.\nRetweet to pull the lever and kill ${randomImageString2}.`,
+                                    status: `What do you do ?\n❤️ to do nothing and let ${randomImageString1} die.\n🔁 to pull the lever and kill ${randomImageString2}.`,
                                     media_ids: new Array(data.media_id_string)
                                 },
                                 function(err) {
